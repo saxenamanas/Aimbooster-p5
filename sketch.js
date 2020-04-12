@@ -50,7 +50,7 @@ function centerCanvas() {
 function draw() {
     background(200);
     if(random(1)<0.09){
-        if(millis()-delay>400 || delay==""){
+        if(millis()-delay>200 || delay==""){
             delay = millis();
             print(delay);
             targets.push(new Target);
